@@ -1,0 +1,29 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+.npm
+npm-debug.log*
+
+# Database & IDE
+*.sqlite3
+*.db
+.vscode/
+.idea/
+.DS_Store
